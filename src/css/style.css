@@ -127,9 +127,11 @@ img { max-width: 100%; display: block; }
 /* Language Toggle - Shared */
 .lang-toggle,
 .lang-toggle-fixed {
-    padding: 0 14px;
+    width: 48px;
     height: 38px;
     line-height: 38px;
+    text-align: center;
+    padding: 0;
     border-radius: 10px;
     border: 1.5px solid var(--border);
     background: transparent;
@@ -142,10 +144,14 @@ img { max-width: 100%; display: block; }
     letter-spacing: 0.5px;
 }
 
-.lang-toggle:hover,
-.lang-toggle-fixed:hover {
+.lang-toggle[data-lang="en"] {
     border-color: var(--accent);
     color: var(--accent);
+}
+
+.lang-toggle[data-lang="vi"] {
+    border-color: #e74c3c;
+    color: #e74c3c;
 }
 
 /* Language Toggle - Mobile (inline in navbar) */

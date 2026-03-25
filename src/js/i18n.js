@@ -272,6 +272,7 @@ function setLanguage(lang) {
     // Update all toggle buttons
     document.querySelectorAll('.lang-toggle').forEach(btn => {
         btn.textContent = lang === 'en' ? 'EN' : 'VI';
+        btn.setAttribute('data-lang', lang);
     });
 }
 
