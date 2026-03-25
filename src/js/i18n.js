@@ -25,7 +25,7 @@ const translations = {
 
         // Code panel
         'code.comment': '// Developer Profile',
-        'code.experience': '8+ years',
+        'code.experience': '"8+ years"',
 
         // About
         'about.heading': 'Specialized in<br><span class="accent">Full-stack<br>Development</span>',
@@ -147,7 +147,7 @@ const translations = {
 
         // Code panel
         'code.comment': '// H\u1ed3 s\u01a1 l\u1eadp tr\u00ecnh vi\u00ean',
-        'code.experience': '8+ n\u0103m',
+        'code.experience': '"8+ năm"',
 
         // About
         'about.heading': 'Chuy\u00ean m\u00f4n v\u1ec1<br><span class="accent">L\u1eadp tr\u00ecnh<br>Full-stack</span>',
