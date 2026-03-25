@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen Van Luong - Software Developer</title>
+    <meta name="description" content="Backend Developer with 8+ years of experience delivering scalable backend systems, specializing in microservices and distributed architectures.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="nav-logo">
+                <svg class="nav-logo-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                luongwnv<span class="cursor">_</span>
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-primary btn-sm">Hire Me</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <h1 class="hero-heading fade-in">
+                        Software Development<br>for<br><span class="accent"><span class="typewriter" id="typewriter"></span><span class="typewriter-cursor">|</span></span>
+                    </h1>
+                    <p class="hero-subtitle fade-in">Full-stack solutions with a backend focus. Built for performance, scalability and reliability using Node.js, Go and modern frameworks.</p>
+                    <div class="hero-cta fade-in">
+                        <a href="#contact" class="btn btn-primary">Contact Me <span class="arrow">&rarr;</span></a>
+                    </div>
+                    <div class="hero-stats fade-in">
+                        <div class="stat">
+                            <span class="stat-top"><span class="stat-number" data-target="8">0</span><span class="stat-suffix">+</span></span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-top"><span class="stat-number" data-target="15">0</span><span class="stat-suffix">+</span></span>
+                            <span class="stat-label">Projects Delivered</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual fade-in">
+                    <div class="code-panel">
+                        <div class="code-header">
+                            <span class="code-comment">// Developer Profile</span>
+                        </div>
+                        <div class="code-body">
+                            <br>
+                            <span class="code-keyword">const</span> <span class="code-var">developer</span> <span class="code-op">=</span> {<br>
+                            &nbsp;&nbsp;specialization: <span class="code-string">"Full-Stack (Backend Focus)"</span>,<br>
+                            &nbsp;&nbsp;backend: [<span class="code-string">"Node.js"</span>, <span class="code-string">"Go"</span>, <span class="code-string">"TypeScript"</span>],<br>
+                            &nbsp;&nbsp;frontend: [<span class="code-string">"React"</span>, <span class="code-string">"Angular"</span>, <span class="code-string">"Vue.js"</span>],<br>
+                            &nbsp;&nbsp;architecture: {<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;microservices: <span class="code-bool">true</span>,<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;distributed: <span class="code-bool">true</span>,<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;event_driven: <span class="code-bool">true</span><br>
+                            &nbsp;&nbsp;},<br>
+                            &nbsp;&nbsp;databases: [<span class="code-string">"PostgreSQL"</span>, <span class="code-string">"MongoDB"</span>, <span class="code-string">"Redis"</span>],<br>
+                            &nbsp;&nbsp;devops: [<span class="code-string">"Docker"</span>, <span class="code-string">"Kubernetes"</span>, <span class="code-string">"AWS"</span>],<br>
+                            &nbsp;&nbsp;experience: <span class="code-string">"8+ years"</span><br>
+                            };
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About + Skills Section -->
+        <section class="section" id="about">
+            <div class="container about-grid">
+                <div class="about-content">
+                    <h2 class="section-heading fade-in">Specialized in<br><span class="accent">Full-Stack<br>Development</span></h2>
+                    <p class="about-text fade-in">Software Developer with 8+ years of experience delivering scalable systems, specializing in backend with microservices and distributed architectures using Node.js, Golang, and Kubernetes — with solid front-end capabilities in React, Angular, and Vue.js.</p>
+                    <p class="about-text fade-in">Skilled in database optimization, performance tuning, and leading cross-functional teams. Eager to expand expertise in software development and architecture to drive organizational success and personal growth.</p>
+                    <div class="about-stats fade-in">
+                        <div class="stat">
+                            <span class="stat-top"><span class="stat-number" data-target="8">0</span><span class="stat-suffix">+</span></span>
+                            <span class="stat-label">Years</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-top"><span class="stat-number" data-target="15">0</span><span class="stat-suffix">+</span></span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">100%</span>
+                            <span class="stat-label">Dedicated</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual fade-in" id="skills">
+                    <div class="skills-panel">
+                        <h3 class="skills-panel-title">Technical Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-cell">
+                                <div class="skill-cell-header">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                                    <span>Backend</span>
+                                </div>
+                                <ul>
+                                    <li>Node.js</li>
+                                    <li>Go</li>
+                                    <li>TypeScript</li>
+                                </ul>
+                            </div>
+                            <div class="skill-cell">
+                                <div class="skill-cell-header">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                                    <span>Front-end</span>
+                                </div>
+                                <ul>
+                                    <li>React</li>
+                                    <li>Angular</li>
+                                    <li>Vue.js</li>
+                                </ul>
+                            </div>
+                            <div class="skill-cell">
+                                <div class="skill-cell-header">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                                    <span>Architecture</span>
+                                </div>
+                                <ul>
+                                    <li>Microservices</li>
+                                    <li>Event-Driven</li>
+                                    <li>Distributed</li>
+                                </ul>
+                            </div>
+                            <div class="skill-cell">
+                                <div class="skill-cell-header">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+                                    <span>Databases</span>
+                                </div>
+                                <ul>
+                                    <li>PostgreSQL</li>
+                                    <li>MongoDB</li>
+                                    <li>Redis</li>
+                                </ul>
+                            </div>
+                            <div class="skill-cell">
+                                <div class="skill-cell-header">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
+                                    <span>DevOps</span>
+                                </div>
+                                <ul>
+                                    <li>Docker</li>
+                                    <li>Kubernetes</li>
+                                    <li>AWS</li>
+                                </ul>
+                            </div>
+                            <div class="skill-cell">
+                                <div class="skill-cell-header">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                                    <span>Other</span>
+                                </div>
+                                <ul>
+                                    <li>Kafka</li>
+                                    <li>WebSocket</li>
+                                    <li>LangChain</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Me Section -->
+        <section class="section section-alt" id="why">
+            <div class="container">
+                <h2 class="section-title fade-in">Why Choose <span class="accent">Me</span></h2>
+                <div class="features-grid">
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                        </div>
+                        <h3 class="feature-title">Scalable Architecture</h3>
+                        <p class="feature-desc">Designing microservices and distributed systems that scale seamlessly with your business growth.</p>
+                        <ul class="feature-list">
+                            <li><span class="check">&#10003;</span> Microservices Design</li>
+                            <li><span class="check">&#10003;</span> High Performance</li>
+                            <li><span class="check">&#10003;</span> Event-Driven Systems</li>
+                        </ul>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+                        </div>
+                        <h3 class="feature-title">Database Expertise</h3>
+                        <p class="feature-desc">Deep experience with SQL and NoSQL databases. Schema design, query optimization, and caching strategies.</p>
+                        <ul class="feature-list">
+                            <li><span class="check">&#10003;</span> Query Optimization</li>
+                            <li><span class="check">&#10003;</span> Schema Design</li>
+                            <li><span class="check">&#10003;</span> Multi-DB Experience</li>
+                        </ul>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
+                        </div>
+                        <h3 class="feature-title">Full DevOps Pipeline</h3>
+                        <p class="feature-desc">End-to-end deployment with Docker, Kubernetes, and CI/CD. Infrastructure that runs reliably at scale.</p>
+                        <ul class="feature-list">
+                            <li><span class="check">&#10003;</span> Docker & Kubernetes</li>
+                            <li><span class="check">&#10003;</span> CI/CD Pipelines</li>
+                            <li><span class="check">&#10003;</span> AWS Cloud</li>
+                        </ul>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                        </div>
+                        <h3 class="feature-title">Team Leadership</h3>
+                        <p class="feature-desc">Experience leading development teams, mentoring juniors, and coordinating cross-functional projects.</p>
+                        <ul class="feature-list">
+                            <li><span class="check">&#10003;</span> Cross-functional Teams</li>
+                            <li><span class="check">&#10003;</span> Mentoring</li>
+                            <li><span class="check">&#10003;</span> Agile Workflows</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Timeline Section -->
+        <section class="section" id="experience">
+            <div class="container">
+                <h2 class="section-title fade-in">Career<br><span class="accent">Timeline</span></h2>
+                <p class="section-subtitle fade-in">A journey through 8+ years of building scalable systems</p>
+
+                <div class="roadmap">
+                    <!-- Step 1 -->
+                    <div class="roadmap-item fade-in">
+                        <div class="roadmap-line" style="--line-color: #7c3aed"></div>
+                        <div class="roadmap-card">
+                            <div class="roadmap-badge" style="background: #7c3aed">1</div>
+                            <h3 class="roadmap-company">One Fusion Group</h3>
+                            <p class="roadmap-role">Full-stack Developer &mdash; Web3 & Blockchain</p>
+                            <span class="roadmap-date">Sep 2025 &ndash; Present</span>
+                            <div class="roadmap-code">
+                                <span class="code-green">$ company.join("One Fusion Group")</span><br>
+                                &#10003; Web3 & Blockchain Application<br>
+                                &#10003; NestJS Real-time APIs<br>
+                                &#10003; Kubernetes Orchestration
+                            </div>
+                            <div class="tech-tags">
+                                <span class="tag">Node.js</span>
+                                <span class="tag">React</span>
+                                <span class="tag">PostgreSQL</span>
+                                <span class="tag">Kafka</span>
+                                <span class="tag">Redis</span>
+                                <span class="tag">Docker</span>
+                                <span class="tag">K8s</span>
+                            </div>
+                        </div>
+                        <div class="roadmap-dot" style="--dot-color: #22c55e"></div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="roadmap-item roadmap-item-right fade-in">
+                        <div class="roadmap-dot" style="--dot-color: #3b82f6"></div>
+                        <div class="roadmap-card">
+                            <div class="roadmap-badge" style="background: #3b82f6">2</div>
+                            <h3 class="roadmap-company">DatVietVAC Group Holdings</h3>
+                            <p class="roadmap-role">Backend Developer &mdash; Internal Management Systems</p>
+                            <span class="roadmap-date">May 2022 &ndash; Aug 2025</span>
+                            <div class="roadmap-code">
+                                <span class="code-green">$ projects.build()</span><br>
+                                &#10003; IP Management System<br>
+                                &#10003; Social Media AI Analytics (RAG + LangChain)<br>
+                                &#10003; Outdoor Advertising Platform<br>
+                                &#10003; Real-time Game Voting (WebSocket)<br>
+                                &#10003; Event Ticketing Platform<br>
+                                &#10003; BI & Reporting Platforms<br>
+                                &#10003; News Website (Viez.vn)
+                            </div>
+                            <div class="tech-tags">
+                                <span class="tag">Node.js</span>
+                                <span class="tag">Go</span>
+                                <span class="tag">Python</span>
+                                <span class="tag">PostgreSQL</span>
+                                <span class="tag">MongoDB</span>
+                                <span class="tag">Redis</span>
+                                <span class="tag">LangChain</span>
+                                <span class="tag">Docker</span>
+                                <span class="tag">K8s</span>
+                            </div>
+                        </div>
+                        <div class="roadmap-line" style="--line-color: #3b82f6"></div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="roadmap-item fade-in">
+                        <div class="roadmap-line" style="--line-color: #f59e0b"></div>
+                        <div class="roadmap-card">
+                            <div class="roadmap-badge" style="background: #f59e0b">3</div>
+                            <h3 class="roadmap-company">J&T Express</h3>
+                            <p class="roadmap-role">Backend Developer &mdash; Social Network Feedback Microservice</p>
+                            <span class="roadmap-date">Apr 2021 &ndash; May 2022</span>
+                            <div class="roadmap-code">
+                                <span class="code-green">$ microservice.deploy()</span><br>
+                                &#10003; Facebook Webhook Integration<br>
+                                &#10003; Queue-based Notification System<br>
+                                &#10003; Order Management Analytics
+                            </div>
+                            <div class="tech-tags">
+                                <span class="tag">Node.js</span>
+                                <span class="tag">PHP</span>
+                                <span class="tag">MySQL</span>
+                                <span class="tag">MongoDB</span>
+                                <span class="tag">Redis</span>
+                                <span class="tag">Docker</span>
+                            </div>
+                        </div>
+                        <div class="roadmap-dot" style="--dot-color: #f59e0b"></div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="roadmap-item roadmap-item-right fade-in">
+                        <div class="roadmap-dot" style="--dot-color: #ef4444"></div>
+                        <div class="roadmap-card">
+                            <div class="roadmap-badge" style="background: #ef4444">4</div>
+                            <h3 class="roadmap-company">TVN Group</h3>
+                            <p class="roadmap-role">Full-Stack Developer &mdash; E-commerce System</p>
+                            <span class="roadmap-date">Nov 2019 &ndash; Apr 2021</span>
+                            <div class="roadmap-code">
+                                <span class="code-green">$ team.lead()</span><br>
+                                &#10003; Led Backend Team<br>
+                                &#10003; Multi-platform E-commerce<br>
+                                &#10003; RabbitMQ Event-Driven Workflows<br>
+                                &#10003; Elasticsearch Integration
+                            </div>
+                            <div class="tech-tags">
+                                <span class="tag">Node.js</span>
+                                <span class="tag">Vue.js</span>
+                                <span class="tag">PostgreSQL</span>
+                                <span class="tag">RabbitMQ</span>
+                                <span class="tag">Elasticsearch</span>
+                                <span class="tag">Docker</span>
+                                <span class="tag">K8s</span>
+                            </div>
+                        </div>
+                        <div class="roadmap-line" style="--line-color: #ef4444"></div>
+                    </div>
+
+                    <!-- Step 5 -->
+                    <div class="roadmap-item fade-in">
+                        <div class="roadmap-line" style="--line-color: #8b5cf6"></div>
+                        <div class="roadmap-card">
+                            <div class="roadmap-badge" style="background: #8b5cf6">5</div>
+                            <h3 class="roadmap-company">FPT Software</h3>
+                            <p class="roadmap-role">Full-Stack Developer &mdash; Enterprise Projects</p>
+                            <span class="roadmap-date">Nov 2017 &ndash; Nov 2019</span>
+                            <div class="roadmap-code">
+                                <span class="code-green">$ career.start()</span><br>
+                                &#10003; Vietnam Insurance Web System<br>
+                                &#10003; Telecom Angular Portals<br>
+                                &#10003; .NET Enterprise Systems
+                            </div>
+                            <div class="tech-tags">
+                                <span class="tag">Java</span>
+                                <span class="tag">Angular</span>
+                                <span class="tag">.NET</span>
+                                <span class="tag">SQL Server</span>
+                                <span class="tag">Oracle</span>
+                            </div>
+                        </div>
+                        <div class="roadmap-dot" style="--dot-color: #8b5cf6"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section section-alt" id="contact">
+            <div class="container contact-container">
+                <h2 class="contact-heading fade-in">Start Your <span class="accent">Project</span></h2>
+                <p class="contact-subtitle fade-in">Ready to build something great? Let's discuss how to make it happen.</p>
+
+                <div class="contact-cta fade-in">
+                    <div class="contact-row">
+                        <div class="contact-info-block">
+                            <h3>&#9745; Free Consultation</h3>
+                            <p>Reach out to discuss your project and explore how to bring it to life.</p>
+                            <div class="contact-badges">
+                                <span><span class="check">&#10003;</span> No commitment</span>
+                                <span><span class="check">&#10003;</span> Quick response</span>
+                                <span><span class="check">&#10003;</span> Free advice</span>
+                            </div>
+                        </div>
+                        <a href="mailto:nguyenvanluong1511@gmail.com" class="btn btn-primary btn-lg">Get In Touch <span class="arrow">&rarr;</span></a>
+                    </div>
+                </div>
+
+                <div class="contact-links fade-in">
+                    <a href="mailto:nguyenvanluong1511@gmail.com" class="contact-link-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        nguyenvanluong1511@gmail.com
+                    </a>
+                    <a href="tel:+84335245645" class="contact-link-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        +84 335 245 645
+                    </a>
+                    <a href="https://github.com/luongwnv" target="_blank" rel="noopener" class="contact-link-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        github.com/luongwnv
+                    </a>
+                    <a href="https://www.linkedin.com/in/luongnv" target="_blank" rel="noopener" class="contact-link-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        linkedin.com/in/luongnv
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Nguyen Van Luong. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="src/js/main.js"></script>
+</body>
+</html>
