@@ -21,19 +21,23 @@
                 luongwnv<span class="cursor">_</span>
             </a>
             <nav class="nav-menu" id="navMenu">
-                <a href="#about" class="nav-link">About</a>
-                <a href="#skills" class="nav-link">Skills</a>
-                <a href="#experience" class="nav-link">Experience</a>
-                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#about" class="nav-link" data-i18n="nav.about">About</a>
+                <a href="#skills" class="nav-link" data-i18n="nav.skills">Skills</a>
+                <a href="#experience" class="nav-link" data-i18n="nav.experience">Experience</a>
+                <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
             </nav>
             <div class="nav-actions">
-                <a href="#contact" class="btn btn-primary btn-sm">Hire Me</a>
+                <a href="#contact" class="btn btn-primary btn-sm" data-i18n="nav.hire">Hire Me</a>
+                <button class="lang-toggle lang-toggle-desktop" aria-label="Toggle language">EN</button>
             </div>
-            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+            <div class="nav-right-mobile">
+                <button class="lang-toggle lang-toggle-mobile" aria-label="Toggle language">EN</button>
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
         </div>
     </header>
 
@@ -43,27 +47,27 @@
             <div class="container hero-grid">
                 <div class="hero-content">
                     <h1 class="hero-heading fade-in">
-                        Software Development<br>for<br><span class="accent"><span class="typewriter" id="typewriter"></span><span class="typewriter-cursor">|</span></span>
+                        <span data-i18n="hero.heading.1">Software Development</span><br><span data-i18n="hero.heading.2">for</span><br><span class="accent"><span class="typewriter" id="typewriter"></span><span class="typewriter-cursor">|</span></span>
                     </h1>
-                    <p class="hero-subtitle fade-in">Scalable systems with a Back-end focus, built for performance and reliability using Node.js, Go, and modern frameworks — with Front-end experience in React, Angular, and Vue.js.</p>
+                    <p class="hero-subtitle fade-in" data-i18n="hero.subtitle">Scalable systems with a Back-end focus, built for performance and reliability using Node.js, Go, and modern frameworks &mdash; with Front-end experience in React, Angular, and Vue.js.</p>
                     <div class="hero-cta fade-in">
-                        <a href="#contact" class="btn btn-primary">Contact Me <span class="arrow">&rarr;</span></a>
+                        <a href="#contact" class="btn btn-primary"><span data-i18n="hero.cta">Contact Me</span> <span class="arrow">&rarr;</span></a>
                     </div>
                     <div class="hero-stats fade-in">
                         <div class="stat">
                             <span class="stat-top"><span class="stat-number" data-target="8">0</span><span class="stat-suffix">+</span></span>
-                            <span class="stat-label">Years Experience</span>
+                            <span class="stat-label" data-i18n="hero.stat.years">Years Experience</span>
                         </div>
                         <div class="stat">
                             <span class="stat-top"><span class="stat-number" data-target="15">0</span><span class="stat-suffix">+</span></span>
-                            <span class="stat-label">Projects Delivered</span>
+                            <span class="stat-label" data-i18n="hero.stat.projects">Projects Delivered</span>
                         </div>
                     </div>
                 </div>
                 <div class="hero-visual fade-in">
                     <div class="code-panel">
                         <div class="code-header">
-                            <span class="code-comment">// Developer Profile</span>
+                            <span class="code-comment" data-i18n="code.comment">// Developer Profile</span>
                         </div>
                         <div class="code-body">
                             <br>
@@ -78,7 +82,7 @@
                             &nbsp;&nbsp;},<br>
                             &nbsp;&nbsp;databases: [<span class="code-string">"PostgreSQL"</span>, <span class="code-string">"MongoDB"</span>, <span class="code-string">"Redis"</span>],<br>
                             &nbsp;&nbsp;devops: [<span class="code-string">"Docker"</span>, <span class="code-string">"Kubernetes"</span>, <span class="code-string">"AWS"</span>],<br>
-                            &nbsp;&nbsp;experience: <span class="code-string">"8+ years"</span><br>
+                            &nbsp;&nbsp;experience: <span class="code-string" data-i18n="code.experience">"8+ years"</span><br>
                             };
                         </div>
                     </div>
@@ -90,18 +94,18 @@
         <section class="section" id="about">
             <div class="container about-grid">
                 <div class="about-content">
-                    <h2 class="section-heading fade-in">Specialized in<br><span class="accent">Full-stack<br>Development</span></h2>
-                    <p class="about-text fade-in">Software Developer with 8+ years of experience delivering scalable systems, specializing in Back-end with microservices and distributed architectures using Node.js, Golang, and Kubernetes — with solid Front-end capabilities in React, Angular, and Vue.js.</p>
-                    <p class="about-text fade-in">Skilled in database optimization, performance tuning, and leading cross-functional teams. Eager to expand expertise in software development and architecture to drive organizational success and personal growth.</p>
+                    <h2 class="section-heading fade-in" data-i18n="about.heading" data-i18n-html>Specialized in<br><span class="accent">Full-stack<br>Development</span></h2>
+                    <p class="about-text fade-in" data-i18n="about.text1">Software Developer with 8+ years of experience delivering scalable systems, specializing in Back-end with microservices and distributed architectures using Node.js, Golang, and Kubernetes &mdash; with solid Front-end capabilities in React, Angular, and Vue.js.</p>
+                    <p class="about-text fade-in" data-i18n="about.text2">Skilled in database optimization, performance tuning, and leading cross-functional teams. Eager to expand expertise in software development and architecture to drive organizational success and personal growth.</p>
                 </div>
                 <div class="about-visual fade-in" id="skills">
                     <div class="skills-panel">
-                        <h3 class="skills-panel-title">Technical Skills</h3>
+                        <h3 class="skills-panel-title" data-i18n="skills.title">Technical Skills</h3>
                         <div class="skills-grid">
                             <div class="skill-cell">
                                 <div class="skill-cell-header">
                                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-                                    <span>Back-end</span>
+                                    <span data-i18n="skills.backend">Back-end</span>
                                 </div>
                                 <ul>
                                     <li>Node.js</li>
@@ -112,7 +116,7 @@
                             <div class="skill-cell">
                                 <div class="skill-cell-header">
                                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
-                                    <span>Front-end</span>
+                                    <span data-i18n="skills.frontend">Front-end</span>
                                 </div>
                                 <ul>
                                     <li>React</li>
@@ -123,7 +127,7 @@
                             <div class="skill-cell">
                                 <div class="skill-cell-header">
                                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
-                                    <span>Architecture</span>
+                                    <span data-i18n="skills.architecture">Architecture</span>
                                 </div>
                                 <ul>
                                     <li>Microservices</li>
@@ -134,7 +138,7 @@
                             <div class="skill-cell">
                                 <div class="skill-cell-header">
                                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
-                                    <span>Databases</span>
+                                    <span data-i18n="skills.databases">Databases</span>
                                 </div>
                                 <ul>
                                     <li>PostgreSQL</li>
@@ -145,7 +149,7 @@
                             <div class="skill-cell">
                                 <div class="skill-cell-header">
                                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
-                                    <span>DevOps</span>
+                                    <span data-i18n="skills.devops">DevOps</span>
                                 </div>
                                 <ul>
                                     <li>Docker</li>
@@ -156,7 +160,7 @@
                             <div class="skill-cell">
                                 <div class="skill-cell-header">
                                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-                                    <span>Other</span>
+                                    <span data-i18n="skills.other">Other</span>
                                 </div>
                                 <ul>
                                     <li>Kafka</li>
@@ -173,54 +177,54 @@
         <!-- Why Choose Me Section -->
         <section class="section section-alt" id="why">
             <div class="container">
-                <h2 class="section-title fade-in">Why Choose <span class="accent">Me</span></h2>
+                <h2 class="section-title fade-in" data-i18n="why.title" data-i18n-html>Why Choose <span class="accent">Me</span></h2>
                 <div class="features-grid">
                     <div class="feature-card fade-in">
                         <div class="feature-icon">
                             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
                         </div>
-                        <h3 class="feature-title">Scalable Architecture</h3>
-                        <p class="feature-desc">Designing microservices and distributed systems that scale seamlessly with your business growth.</p>
+                        <h3 class="feature-title" data-i18n="why.scalable.title">Scalable Architecture</h3>
+                        <p class="feature-desc" data-i18n="why.scalable.desc">Designing microservices and distributed systems that scale seamlessly with your business growth.</p>
                         <ul class="feature-list">
-                            <li><span class="check">&#10003;</span> Microservices Design</li>
-                            <li><span class="check">&#10003;</span> High Performance</li>
-                            <li><span class="check">&#10003;</span> Event-Driven Systems</li>
+                            <li><span class="check">&#10003;</span> <span data-i18n="why.scalable.1">Microservices Design</span></li>
+                            <li><span class="check">&#10003;</span> <span data-i18n="why.scalable.2">High Performance</span></li>
+                            <li><span class="check">&#10003;</span> <span data-i18n="why.scalable.3">Event-Driven Systems</span></li>
                         </ul>
                     </div>
                     <div class="feature-card fade-in">
                         <div class="feature-icon">
                             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
                         </div>
-                        <h3 class="feature-title">Database Expertise</h3>
-                        <p class="feature-desc">Deep experience with SQL and NoSQL databases. Schema design, query optimization, and caching strategies.</p>
+                        <h3 class="feature-title" data-i18n="why.db.title">Database Expertise</h3>
+                        <p class="feature-desc" data-i18n="why.db.desc">Deep experience with SQL and NoSQL databases. Schema design, query optimization, and caching strategies.</p>
                         <ul class="feature-list">
-                            <li><span class="check">&#10003;</span> Query Optimization</li>
-                            <li><span class="check">&#10003;</span> Schema Design</li>
-                            <li><span class="check">&#10003;</span> Multi-DB Experience</li>
+                            <li><span class="check">&#10003;</span> <span data-i18n="why.db.1">Query Optimization</span></li>
+                            <li><span class="check">&#10003;</span> <span data-i18n="why.db.2">Schema Design</span></li>
+                            <li><span class="check">&#10003;</span> <span data-i18n="why.db.3">Multi-DB Experience</span></li>
                         </ul>
                     </div>
                     <div class="feature-card fade-in">
                         <div class="feature-icon">
                             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
                         </div>
-                        <h3 class="feature-title">Full DevOps Pipeline</h3>
-                        <p class="feature-desc">End-to-end deployment with Docker, Kubernetes, and CI/CD. Infrastructure that runs reliably at scale.</p>
+                        <h3 class="feature-title" data-i18n="why.devops.title">Full DevOps Pipeline</h3>
+                        <p class="feature-desc" data-i18n="why.devops.desc">End-to-end deployment with Docker, Kubernetes, and CI/CD. Infrastructure that runs reliably at scale.</p>
                         <ul class="feature-list">
-                            <li><span class="check">&#10003;</span> Docker & Kubernetes</li>
-                            <li><span class="check">&#10003;</span> CI/CD Pipelines</li>
-                            <li><span class="check">&#10003;</span> AWS Cloud</li>
+                            <li><span class="check">&#10003;</span> <span data-i18n="why.devops.1">Docker & Kubernetes</span></li>
+                            <li><span class="check">&#10003;</span> <span data-i18n="why.devops.2">CI/CD Pipelines</span></li>
+                            <li><span class="check">&#10003;</span> <span data-i18n="why.devops.3">AWS Cloud</span></li>
                         </ul>
                     </div>
                     <div class="feature-card fade-in">
                         <div class="feature-icon">
                             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
                         </div>
-                        <h3 class="feature-title">Team Leadership</h3>
-                        <p class="feature-desc">Experience leading development teams, mentoring juniors, and coordinating cross-functional projects.</p>
+                        <h3 class="feature-title" data-i18n="why.team.title">Team Leadership</h3>
+                        <p class="feature-desc" data-i18n="why.team.desc">Experience leading development teams, mentoring juniors, and coordinating cross-functional projects.</p>
                         <ul class="feature-list">
-                            <li><span class="check">&#10003;</span> Cross-functional Teams</li>
-                            <li><span class="check">&#10003;</span> Mentoring</li>
-                            <li><span class="check">&#10003;</span> Agile Workflows</li>
+                            <li><span class="check">&#10003;</span> <span data-i18n="why.team.1">Cross-functional Teams</span></li>
+                            <li><span class="check">&#10003;</span> <span data-i18n="why.team.2">Mentoring</span></li>
+                            <li><span class="check">&#10003;</span> <span data-i18n="why.team.3">Agile Workflows</span></li>
                         </ul>
                     </div>
                 </div>
@@ -230,8 +234,8 @@
         <!-- Experience Timeline Section -->
         <section class="section" id="experience">
             <div class="container">
-                <h2 class="section-title fade-in">Career<br><span class="accent">Timeline</span></h2>
-                <p class="section-subtitle fade-in">A journey through 8+ years of building scalable systems</p>
+                <h2 class="section-title fade-in" data-i18n="exp.title" data-i18n-html>Career<br><span class="accent">Timeline</span></h2>
+                <p class="section-subtitle fade-in" data-i18n="exp.subtitle">A journey through 8+ years of building scalable systems</p>
 
                 <div class="roadmap">
                     <!-- Step 1 -->
@@ -240,13 +244,13 @@
                         <div class="roadmap-card">
                             <div class="roadmap-badge" style="background: #7c3aed">1</div>
                             <h3 class="roadmap-company">One Fusion Group</h3>
-                            <p class="roadmap-role">Full-stack Developer &mdash; Web3 & Blockchain</p>
-                            <span class="roadmap-date">Sep 2025 &ndash; Present</span>
+                            <p class="roadmap-role" data-i18n="exp.1.role">Full-stack Developer &mdash; Web3 & Blockchain</p>
+                            <span class="roadmap-date" data-i18n="exp.1.date">Sep 2025 &ndash; Present</span>
                             <div class="roadmap-code">
-                                <span class="code-green">$ company.join("One Fusion Group")</span><br>
-                                &#10003; Web3 & Blockchain Application<br>
-                                &#10003; NestJS Real-time APIs<br>
-                                &#10003; Kubernetes Orchestration
+                                <span class="code-green" data-i18n="exp.1.cmd">$ company.join("One Fusion Group")</span><br>
+                                <span data-i18n="exp.1.1">&#10003; Web3 & Blockchain Application</span><br>
+                                <span data-i18n="exp.1.2">&#10003; NestJS Real-time APIs</span><br>
+                                <span data-i18n="exp.1.3">&#10003; Kubernetes Orchestration</span>
                             </div>
                             <div class="tech-tags">
                                 <span class="tag">Node.js</span>
@@ -267,17 +271,17 @@
                         <div class="roadmap-card">
                             <div class="roadmap-badge" style="background: #3b82f6">2</div>
                             <h3 class="roadmap-company">DatVietVAC Group Holdings</h3>
-                            <p class="roadmap-role">Back-end Developer &mdash; Internal Management Systems</p>
-                            <span class="roadmap-date">May 2022 &ndash; Aug 2025</span>
+                            <p class="roadmap-role" data-i18n="exp.2.role">Back-end Developer &mdash; Internal Management Systems</p>
+                            <span class="roadmap-date" data-i18n="exp.2.date">May 2022 &ndash; Aug 2025</span>
                             <div class="roadmap-code">
-                                <span class="code-green">$ projects.build()</span><br>
-                                &#10003; IP Management System<br>
-                                &#10003; Social Media AI Analytics (RAG + LangChain)<br>
-                                &#10003; Outdoor Advertising Platform<br>
-                                &#10003; Real-time Game Voting (WebSocket)<br>
-                                &#10003; Event Ticketing Platform<br>
-                                &#10003; BI & Reporting Platforms<br>
-                                &#10003; News Website (Viez.vn)
+                                <span class="code-green" data-i18n="exp.2.cmd">$ projects.build()</span><br>
+                                <span data-i18n="exp.2.1">&#10003; IP Management System</span><br>
+                                <span data-i18n="exp.2.2">&#10003; Social Media AI Analytics (RAG + LangChain)</span><br>
+                                <span data-i18n="exp.2.3">&#10003; Outdoor Advertising Platform</span><br>
+                                <span data-i18n="exp.2.4">&#10003; Real-time Game Voting (WebSocket)</span><br>
+                                <span data-i18n="exp.2.5">&#10003; Event Ticketing Platform</span><br>
+                                <span data-i18n="exp.2.6">&#10003; BI & Reporting Platforms</span><br>
+                                <span data-i18n="exp.2.7">&#10003; News Website (Viez.vn)</span>
                             </div>
                             <div class="tech-tags">
                                 <span class="tag">Node.js</span>
@@ -300,13 +304,13 @@
                         <div class="roadmap-card">
                             <div class="roadmap-badge" style="background: #f59e0b">3</div>
                             <h3 class="roadmap-company">J&T Express</h3>
-                            <p class="roadmap-role">Back-end Developer &mdash; Social Network Feedback Microservice</p>
-                            <span class="roadmap-date">Apr 2021 &ndash; May 2022</span>
+                            <p class="roadmap-role" data-i18n="exp.3.role">Back-end Developer &mdash; Social Network Feedback Microservice</p>
+                            <span class="roadmap-date" data-i18n="exp.3.date">Apr 2021 &ndash; May 2022</span>
                             <div class="roadmap-code">
-                                <span class="code-green">$ microservice.deploy()</span><br>
-                                &#10003; Facebook Webhook Integration<br>
-                                &#10003; Queue-based Notification System<br>
-                                &#10003; Order Management Analytics
+                                <span class="code-green" data-i18n="exp.3.cmd">$ microservice.deploy()</span><br>
+                                <span data-i18n="exp.3.1">&#10003; Facebook Webhook Integration</span><br>
+                                <span data-i18n="exp.3.2">&#10003; Queue-based Notification System</span><br>
+                                <span data-i18n="exp.3.3">&#10003; Order Management Analytics</span>
                             </div>
                             <div class="tech-tags">
                                 <span class="tag">Node.js</span>
@@ -326,14 +330,14 @@
                         <div class="roadmap-card">
                             <div class="roadmap-badge" style="background: #ef4444">4</div>
                             <h3 class="roadmap-company">TVN Group</h3>
-                            <p class="roadmap-role">Full-stack Developer &mdash; E-commerce System</p>
-                            <span class="roadmap-date">Nov 2019 &ndash; Apr 2021</span>
+                            <p class="roadmap-role" data-i18n="exp.4.role">Full-stack Developer &mdash; E-commerce System</p>
+                            <span class="roadmap-date" data-i18n="exp.4.date">Nov 2019 &ndash; Apr 2021</span>
                             <div class="roadmap-code">
-                                <span class="code-green">$ team.lead()</span><br>
-                                &#10003; Led Back-end Team<br>
-                                &#10003; Multi-platform E-commerce<br>
-                                &#10003; RabbitMQ Event-Driven Workflows<br>
-                                &#10003; Elasticsearch Integration
+                                <span class="code-green" data-i18n="exp.4.cmd">$ team.lead()</span><br>
+                                <span data-i18n="exp.4.1">&#10003; Led Back-end Team</span><br>
+                                <span data-i18n="exp.4.2">&#10003; Multi-platform E-commerce</span><br>
+                                <span data-i18n="exp.4.3">&#10003; RabbitMQ Event-Driven Workflows</span><br>
+                                <span data-i18n="exp.4.4">&#10003; Elasticsearch Integration</span>
                             </div>
                             <div class="tech-tags">
                                 <span class="tag">Node.js</span>
@@ -354,13 +358,13 @@
                         <div class="roadmap-card">
                             <div class="roadmap-badge" style="background: #8b5cf6">5</div>
                             <h3 class="roadmap-company">FPT Software</h3>
-                            <p class="roadmap-role">Full-stack Developer &mdash; Enterprise Projects</p>
-                            <span class="roadmap-date">Nov 2017 &ndash; Nov 2019</span>
+                            <p class="roadmap-role" data-i18n="exp.5.role">Full-stack Developer &mdash; Enterprise Projects</p>
+                            <span class="roadmap-date" data-i18n="exp.5.date">Nov 2017 &ndash; Nov 2019</span>
                             <div class="roadmap-code">
-                                <span class="code-green">$ career.start()</span><br>
-                                &#10003; Vietnam Insurance Web System<br>
-                                &#10003; Telecom Angular Portals<br>
-                                &#10003; .NET Enterprise Systems
+                                <span class="code-green" data-i18n="exp.5.cmd">$ career.start()</span><br>
+                                <span data-i18n="exp.5.1">&#10003; Vietnam Insurance Web System</span><br>
+                                <span data-i18n="exp.5.2">&#10003; Telecom Angular Portals</span><br>
+                                <span data-i18n="exp.5.3">&#10003; .NET Enterprise Systems</span>
                             </div>
                             <div class="tech-tags">
                                 <span class="tag">Java</span>
@@ -379,21 +383,21 @@
         <!-- Contact Section -->
         <section class="section section-alt" id="contact">
             <div class="container contact-container">
-                <h2 class="contact-heading fade-in">Start Your <span class="accent">Project</span></h2>
-                <p class="contact-subtitle fade-in">Ready to build something great? Let's discuss how to make it happen.</p>
+                <h2 class="contact-heading fade-in" data-i18n="contact.heading" data-i18n-html>Start Your <span class="accent">Project</span></h2>
+                <p class="contact-subtitle fade-in" data-i18n="contact.subtitle">Ready to build something great? Let's discuss how to make it happen.</p>
 
                 <div class="contact-cta fade-in">
                     <div class="contact-row">
                         <div class="contact-info-block">
-                            <h3>&#9745; Free Consultation</h3>
-                            <p>Reach out to discuss your project and explore how to bring it to life.</p>
+                            <h3 data-i18n="contact.free">&#9745; Free Consultation</h3>
+                            <p data-i18n="contact.desc">Reach out to discuss your project and explore how to bring it to life.</p>
                             <div class="contact-badges">
-                                <span><span class="check">&#10003;</span> No commitment</span>
-                                <span><span class="check">&#10003;</span> Quick response</span>
-                                <span><span class="check">&#10003;</span> Free advice</span>
+                                <span><span class="check">&#10003;</span> <span data-i18n="contact.badge1">No commitment</span></span>
+                                <span><span class="check">&#10003;</span> <span data-i18n="contact.badge2">Quick response</span></span>
+                                <span><span class="check">&#10003;</span> <span data-i18n="contact.badge3">Free advice</span></span>
                             </div>
                         </div>
-                        <a href="mailto:nguyenvanluong1511@gmail.com" class="btn btn-primary btn-lg">Get In Touch <span class="arrow">&rarr;</span></a>
+                        <a href="mailto:nguyenvanluong1511@gmail.com" class="btn btn-primary btn-lg"><span data-i18n="contact.btn">Get In Touch</span> <span class="arrow">&rarr;</span></a>
                     </div>
                 </div>
 
@@ -422,7 +426,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Luong Nguyen. All rights reserved.</p>
+            <p data-i18n="footer">&copy; 2026 Luong Nguyen. All rights reserved.</p>
         </div>
     </footer>
 
@@ -431,6 +435,7 @@
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
     </button>
 
+    <script src="src/js/i18n.js"></script>
     <script src="src/js/main.js"></script>
 </body>
 </html>

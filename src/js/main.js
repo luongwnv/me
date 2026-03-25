@@ -65,13 +65,27 @@ fadeElements.forEach(el => fadeObserver.observe(el));
 
 // ===== Typewriter effect =====
 const typewriterEl = document.getElementById('typewriter');
-const words = [
-    { text: 'Scalable Systems', gradient: 'linear-gradient(90deg, #8b5cf6, #d946ef)' },
-    { text: 'Microservices', gradient: 'linear-gradient(90deg, #10b981, #34d399)' },
-    { text: 'Distributed Apps', gradient: 'linear-gradient(90deg, #3b82f6, #06b6d4)' },
-    { text: 'Cloud Platforms', gradient: 'linear-gradient(90deg, #f59e0b, #ef4444)' },
-    { text: 'High Performance', gradient: 'linear-gradient(90deg, #ef4444, #ec4899)' }
+const gradients = [
+    'linear-gradient(90deg, #8b5cf6, #d946ef)',
+    'linear-gradient(90deg, #10b981, #34d399)',
+    'linear-gradient(90deg, #3b82f6, #06b6d4)',
+    'linear-gradient(90deg, #f59e0b, #ef4444)',
+    'linear-gradient(90deg, #ef4444, #ec4899)'
 ];
+
+function getWords(lang) {
+    const t = translations[lang];
+    return gradients.map((gradient, i) => ({
+        text: t['typewriter.' + i],
+        gradient
+    }));
+}
+
+let words = getWords(currentLang || 'en');
+
+function updateTypewriterWords(lang) {
+    words = getWords(lang);
+}
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
