@@ -241,7 +241,7 @@ const translations = {
         'contact.btn': 'Li\u00ean h\u1ec7 ngay',
 
         // Footer
-        'footer': '\u00A9 2026 Nguy\u1ec5n V\u0103n L\u01b0\u1eddng. T\u1ea5t c\u1ea3 quy\u1ec1n \u0111\u01b0\u1ee3c b\u1ea3o l\u01b0u.',
+        'footer': '© 2026 Lương Nguyễn. Tất cả quyền được bảo lưu.',
     }
 };
 
