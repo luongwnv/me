@@ -251,6 +251,13 @@ img { max-width: 100%; display: block; }
     align-items: center;
 }
 
+.hero-greeting {
+    font-family: var(--mono);
+    font-size: 1.4rem;
+    color: var(--text-secondary);
+    margin-bottom: 16px;
+}
+
 .hero-heading {
     font-size: clamp(2.2rem, 5vw, 3.5rem);
     font-weight: 900;
@@ -954,6 +961,8 @@ img { max-width: 100%; display: block; }
         font-size: 1.8rem;
         letter-spacing: -0.5px;
     }
+
+    .hero-greeting { font-size: 1.0rem; }
 
     .hero-subtitle { font-size: 0.9rem; }
 

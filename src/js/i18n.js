@@ -8,6 +8,7 @@ const translations = {
         'nav.hire': 'Hire Me',
 
         // Hero
+        'hero.greeting': '<span class="code-keyword">const</span> <span class="code-var">name</span><span class="code-op">:</span> <span class="code-bool">string</span> <span class="code-op">=</span> <span class="code-string">"Luong Nguyen"</span>',
         'hero.heading.1': 'Software Development',
         'hero.heading.2': 'for',
         'hero.subtitle': 'Scalable systems with a Back-end focus, built for performance and reliability using Node.js, Go, and modern frameworks \u2014 with Front-end experience in React, Angular, and Vue.js.',
@@ -129,6 +130,7 @@ const translations = {
         'nav.hire': 'Tuy\u1ec3n t\u00f4i',
 
         // Hero
+        'hero.greeting': '<span class="code-keyword">const</span> <span class="code-var">name</span><span class="code-op">:</span> <span class="code-bool">string</span> <span class="code-op">=</span> <span class="code-string">"L\u01b0\u01a1ng Nguy\u1ec5n"</span>',
         'hero.heading.1': 'Ph\u00e1t tri\u1ec3n ph\u1ea7n m\u1ec1m',
         'hero.heading.2': 'cho',
         'hero.subtitle': 'X\u00e2y d\u1ef1ng h\u1ec7 th\u1ed1ng c\u00f3 kh\u1ea3 n\u0103ng m\u1edf r\u1ed9ng, t\u1eadp trung v\u00e0o Back-end, \u01b0u ti\u00ean hi\u1ec7u su\u1ea5t v\u00e0 \u0111\u1ed9 tin c\u1eady v\u1edbi Node.js, Go v\u00e0 c\u00e1c framework hi\u1ec7n \u0111\u1ea1i \u2014 c\u00f3 kinh nghi\u1ec7m Front-end v\u1edbi React, Angular v\u00e0 Vue.js.',
@@ -139,8 +141,8 @@ const translations = {
         // Typewriter
         'typewriter.0': 'H\u1ec7 th\u1ed1ng l\u1edbn',
         'typewriter.1': 'Microservices',
-        'typewriter.2': 'H\u1ec7 ph\u00e2n t\u00e1n',
-        'typewriter.3': 'N\u1ec1n t\u1ea3ng Cloud',
+        'typewriter.2': 'H\u1ec7 th\u1ed1ng ph\u00e2n t\u00e1n',
+        'typewriter.3': 'N\u1ec1n t\u1ea3ng \u0111\u00e1m m\u00e2y',
         'typewriter.4': 'Hi\u1ec7u su\u1ea5t cao',
 
         // Code panel
@@ -149,7 +151,7 @@ const translations = {
 
         // About
         'about.heading': 'Chuy\u00ean m\u00f4n v\u1ec1<br><span class="accent">L\u1eadp tr\u00ecnh<br>Full-stack</span>',
-        'about.text1': 'L\u1eadp tr\u00ecnh vi\u00ean v\u1edbi h\u01a1n 8 n\u0103m kinh nghi\u1ec7m x\u00e2y d\u1ef1ng h\u1ec7 th\u1ed1ng c\u00f3 kh\u1ea3 n\u0103ng m\u1edf r\u1ed9ng, chuy\u00ean v\u1ec1 Back-end v\u1edbi ki\u1ebfn tr\u00fac microservices v\u00e0 h\u1ec7 ph\u00e2n t\u00e1n s\u1eed d\u1ee5ng Node.js, Golang v\u00e0 Kubernetes \u2014 c\u00f3 n\u0103ng l\u1ef1c Front-end v\u1eefng v\u1edbi React, Angular v\u00e0 Vue.js.',
+        'about.text1': 'L\u1eadp tr\u00ecnh vi\u00ean v\u1edbi h\u01a1n 8 n\u0103m kinh nghi\u1ec7m x\u00e2y d\u1ef1ng h\u1ec7 th\u1ed1ng c\u00f3 kh\u1ea3 n\u0103ng m\u1edf r\u1ed9ng, chuy\u00ean v\u1ec1 Back-end v\u1edbi ki\u1ebfn tr\u00fac microservices v\u00e0 h\u1ec7 th\u1ed1ng ph\u00e2n t\u00e1n s\u1eed d\u1ee5ng Node.js, Golang v\u00e0 Kubernetes \u2014 c\u00f3 n\u0103ng l\u1ef1c Front-end v\u1eefng v\u1edbi React, Angular v\u00e0 Vue.js.',
         'about.text2': 'Th\u00e0nh th\u1ea1o t\u1ed1i \u01b0u database, tinh ch\u1ec9nh hi\u1ec7u su\u1ea5t v\u00e0 l\u00e3nh \u0111\u1ea1o nh\u00f3m \u0111a ch\u1ee9c n\u0103ng. Mong mu\u1ed1n m\u1edf r\u1ed9ng chuy\u00ean m\u00f4n v\u1ec1 ph\u00e1t tri\u1ec3n ph\u1ea7n m\u1ec1m v\u00e0 ki\u1ebfn tr\u00fac \u0111\u1ec3 \u0111\u00f3ng g\u00f3p v\u00e0o th\u00e0nh c\u00f4ng c\u1ee7a t\u1ed5 ch\u1ee9c.',
 
         // Skills
