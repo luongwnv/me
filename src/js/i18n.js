@@ -65,7 +65,7 @@ const translations = {
         'why.team.3': 'Agile Workflows',
 
         // Experience
-        'exp.title': 'Career<br><span class="accent">Timeline</span>',
+        'exp.title': 'Career <span class="accent">Timeline</span>',
         'exp.subtitle': 'A journey through 8+ years of building scalable systems',
 
         'exp.1.role': 'Full-stack Developer \u2014 Web3 & Blockchain',
@@ -187,7 +187,7 @@ const translations = {
         'why.team.3': 'Quy tr\u00ecnh Agile',
 
         // Experience
-        'exp.title': 'L\u1ed9 tr\u00ecnh<br><span class="accent">Ngh\u1ec1 nghi\u1ec7p</span>',
+        'exp.title': 'Lộ trình <span class="accent">nghề nghiệp</span>',
         'exp.subtitle': 'H\u00e0nh tr\u00ecnh h\u01a1n 8 n\u0103m x\u00e2y d\u1ef1ng h\u1ec7 th\u1ed1ng c\u00f3 kh\u1ea3 n\u0103ng m\u1edf r\u1ed9ng',
 
         'exp.1.role': 'L\u1eadp tr\u00ecnh vi\u00ean Full-stack \u2014 Web3 & Blockchain',
@@ -231,7 +231,7 @@ const translations = {
         'exp.5.3': '\u2713 H\u1ec7 th\u1ed1ng .NET doanh nghi\u1ec7p',
 
         // Contact
-        'contact.heading': 'B\u1eaft \u0111\u1ea7u d\u1ef1 <span class="accent">\u00e1n</span>',
+        'contact.heading': 'Bắt đầu <span class="accent">dự án</span>',
         'contact.subtitle': 'S\u1eb5n s\u00e0ng x\u00e2y d\u1ef1ng \u0111i\u1ec1u tuy\u1ec7t v\u1eddi? H\u00e3y th\u1ea3o lu\u1eadn c\u00e1ch hi\u1ec7n th\u1ef1c h\u00f3a.',
         'contact.free': '\u2611 T\u01b0 v\u1ea5n mi\u1ec5n ph\u00ed',
         'contact.desc': 'Li\u00ean h\u1ec7 \u0111\u1ec3 th\u1ea3o lu\u1eadn v\u1ec1 d\u1ef1 \u00e1n v\u00e0 kh\u00e1m ph\u00e1 c\u00e1ch hi\u1ec7n th\u1ef1c h\u00f3a.',
