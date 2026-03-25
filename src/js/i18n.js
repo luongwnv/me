@@ -8,7 +8,7 @@ const translations = {
         'nav.hire': 'Hire Me',
 
         // Hero
-        'hero.greeting': '<span class="code-keyword">const</span> <span class="code-var">name</span><span class="code-op">:</span> <span class="code-bool">string</span> <span class="code-op">=</span> <span class="code-string">"Luong Nguyen"</span>',
+        'hero.greeting': '<span class="code-keyword">const</span> <span class="code-var">name</span><span class="code-op">:</span> <span class="code-bool">string</span> <span class="code-op">=</span> <span class="code-string">"Luong Nguyen"</span><span class="code-op">;</span>',
         'hero.heading.1': 'Software Development',
         'hero.heading.2': 'for',
         'hero.subtitle': 'Scalable systems with a Back-end focus, built for performance and reliability using Node.js, Go, and modern frameworks \u2014 with Front-end experience in React, Angular, and Vue.js.',
@@ -130,7 +130,7 @@ const translations = {
         'nav.hire': 'Tuy\u1ec3n t\u00f4i',
 
         // Hero
-        'hero.greeting': '<span class="code-keyword">const</span> <span class="code-var">name</span><span class="code-op">:</span> <span class="code-bool">string</span> <span class="code-op">=</span> <span class="code-string">"L\u01b0\u01a1ng Nguy\u1ec5n"</span>',
+        'hero.greeting': '<span class="code-keyword">const</span> <span class="code-var">name</span><span class="code-op">:</span> <span class="code-bool">string</span> <span class="code-op">=</span> <span class="code-string">"L\u01b0\u01a1ng Nguy\u1ec5n"</span><span class="code-op">;</span>',
         'hero.heading.1': 'Ph\u00e1t tri\u1ec3n ph\u1ea7n m\u1ec1m',
         'hero.heading.2': 'cho',
         'hero.subtitle': 'X\u00e2y d\u1ef1ng h\u1ec7 th\u1ed1ng c\u00f3 kh\u1ea3 n\u0103ng m\u1edf r\u1ed9ng, t\u1eadp trung v\u00e0o Back-end, \u01b0u ti\u00ean hi\u1ec7u su\u1ea5t v\u00e0 \u0111\u1ed9 tin c\u1eady v\u1edbi Node.js, Go v\u00e0 c\u00e1c framework hi\u1ec7n \u0111\u1ea1i \u2014 c\u00f3 kinh nghi\u1ec7m Front-end v\u1edbi React, Angular v\u00e0 Vue.js.',
