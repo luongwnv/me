@@ -226,9 +226,9 @@ const translations = {
         'exp.5.role': 'L\u1eadp tr\u00ecnh vi\u00ean Full-stack \u2014 D\u1ef1 \u00e1n doanh nghi\u1ec7p',
         'exp.5.date': 'Th\u00e1ng 11/2017 \u2013 Th\u00e1ng 11/2019',
         'exp.5.cmd': '$ career.start()',
-        'exp.5.1': '\u2713 H\u1ec7 th\u1ed1ng b\u1ea3o hi\u1ec3m Vi\u1ec7t Nam',
-        'exp.5.2': '\u2713 C\u1ed5ng Angular vi\u1ec5n th\u00f4ng',
-        'exp.5.3': '\u2713 H\u1ec7 th\u1ed1ng .NET doanh nghi\u1ec7p',
+        'exp.5.1': '\u2713 Trang b\u1ea3o hi\u1ec3m Vi\u1ec7t Nam',
+        'exp.5.2': '\u2713 Giao di\u1ec7n cho h\u1ec7 th\u1ed1ng qu\u1ea3n l\u00fd vi\u1ec5n th\u00f4ng',
+        'exp.5.3': '\u2713 B\u1ea3o tr\u00ec h\u1ec7 th\u1ed1ng .NET Framework',
 
         // Contact
         'contact.heading': 'Bắt đầu <span class="accent">dự án</span>',
