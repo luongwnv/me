@@ -1,3 +1,9 @@
+// ===== Scroll to top on page load =====
+window.addEventListener('beforeunload', () => {
+    window.scrollTo(0, 0);
+});
+history.scrollRestoration = 'manual';
+
 // ===== Navbar scroll effect =====
 const navbar = document.getElementById('navbar');
 
@@ -135,3 +141,14 @@ function animateCounter(el, target) {
 
     requestAnimationFrame(update);
 }
+
+// ===== Scroll to Top button =====
+const scrollTopBtn = document.getElementById('scrollTop');
+
+window.addEventListener('scroll', () => {
+    scrollTopBtn.classList.toggle('visible', window.scrollY > 400);
+});
+
+scrollTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
