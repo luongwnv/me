@@ -853,11 +853,11 @@ img { max-width: 100%; display: block; }
 
     .contact-row {
         flex-direction: column;
-        text-align: center;
+        text-align: left;
         padding: 28px;
     }
 
-    .contact-badges { flex-direction: column; align-items: flex-start; padding-left: 24px; }
+    .contact-badges { flex-direction: column; align-items: flex-start; }
 
     .contact-links {
         flex-direction: column;
