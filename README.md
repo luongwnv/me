@@ -1,4 +1,4 @@
-# Nguyen Van Luong — Software Developer
+# Luong Nguyen — Software Developer
 
 Software Developer with 8+ years of experience delivering scalable systems, specializing in Back-end with microservices and distributed architectures using Node.js, Golang, and Kubernetes — with solid Front-end capabilities in React, Angular, and Vue.js.
 

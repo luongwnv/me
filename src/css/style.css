@@ -835,7 +835,8 @@ img { max-width: 100%; display: block; }
 
     .hero-stats,
     .about-stats {
-        gap: 24px;
+        gap: 32px;
+        justify-content: center;
     }
 
     .stat-number,
@@ -856,7 +857,7 @@ img { max-width: 100%; display: block; }
         padding: 28px;
     }
 
-    .contact-badges { justify-content: center; }
+    .contact-badges { flex-direction: column; align-items: flex-start; padding-left: 24px; }
 
     .contact-links {
         flex-direction: column;
@@ -891,7 +892,8 @@ img { max-width: 100%; display: block; }
     .hero-stats,
     .about-stats {
         flex-wrap: wrap;
-        gap: 16px;
+        gap: 24px;
+        justify-content: center;
     }
 
     .stat-number,
@@ -938,20 +940,19 @@ img { max-width: 100%; display: block; }
 
     .roadmap-card { padding: 16px; }
 
-    .roadmap-company { font-size: 0.95rem; }
+    .roadmap-company { font-size: 1.25rem; word-break: break-word; }
 
-    .roadmap-role { font-size: 0.8rem; }
+    .roadmap-role { font-size: 1rem; word-break: break-word; }
 
     .roadmap-code {
-        font-size: 0.65rem;
-        padding: 10px;
+        font-size: 0.82rem;
+        padding: 14px;
         overflow-x: auto;
-        white-space: nowrap;
     }
 
-    .tech-tags { gap: 4px; }
+    .tech-tags { gap: 5px; }
 
-    .tag { font-size: 0.65rem; padding: 3px 8px; }
+    .tag { font-size: 0.78rem; padding: 4px 10px; }
 
     .contact-heading { font-size: 1.6rem; }
 
