@@ -794,11 +794,12 @@ img { max-width: 100%; display: block; }
 
     .roadmap-item,
     .roadmap-item-right {
-        grid-template-columns: 4px 1fr;
-        gap: 20px;
+        display: flex;
+        flex-direction: column;
     }
 
     .roadmap-dot { display: none; }
+    .roadmap-line { display: none; }
 
     .roadmap-item-right .roadmap-card { order: unset; }
     .roadmap-item-right .roadmap-line { order: unset; }
@@ -935,13 +936,22 @@ img { max-width: 100%; display: block; }
         gap: 12px;
     }
 
-    .roadmap-card { padding: 20px; }
+    .roadmap-card { padding: 16px; }
+
+    .roadmap-company { font-size: 0.95rem; }
+
+    .roadmap-role { font-size: 0.8rem; }
 
     .roadmap-code {
-        font-size: 0.7rem;
-        padding: 12px;
+        font-size: 0.65rem;
+        padding: 10px;
         overflow-x: auto;
+        white-space: nowrap;
     }
+
+    .tech-tags { gap: 4px; }
+
+    .tag { font-size: 0.65rem; padding: 3px 8px; }
 
     .contact-heading { font-size: 1.6rem; }
 
