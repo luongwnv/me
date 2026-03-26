@@ -51,17 +51,24 @@ window.addEventListener('scroll', updateActiveLink);
 
 // ===== Fade-in on scroll =====
 const fadeElements = document.querySelectorAll('.fade-in');
+const isMobile = window.innerWidth <= 768;
 
-const fadeObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-            fadeObserver.unobserve(entry.target);
-        }
+if (isMobile) {
+    fadeElements.forEach((el, i) => {
+        setTimeout(() => el.classList.add('visible'), i * 100);
     });
-}, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+} else {
+    const fadeObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                fadeObserver.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
 
-fadeElements.forEach(el => fadeObserver.observe(el));
+    fadeElements.forEach(el => fadeObserver.observe(el));
+}
 
 // ===== Typewriter effect =====
 const typewriterEl = document.getElementById('typewriter');
